@@ -376,11 +376,9 @@ p {
 }
 
 .menu-card {
-    min-height: 220px;
-    padding: 35px;
+    padding: 0 0 35px;
 
-    display: flex;
-    gap: 30px;
+    display: block;
 
     border-top: 1px solid var(--border);
 }
