@@ -878,3 +878,16 @@ p {
         gap: 10px;
     }
 }
+.menu-card .menu-image {
+    width: 220px;
+    height: 220px;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+.menu-card .menu-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
