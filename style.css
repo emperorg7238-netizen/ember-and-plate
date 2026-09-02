@@ -180,19 +180,21 @@ p {
 
     display: flex;
     align-items: center;
-
+    
     background:
-        linear-gradient(
-            90deg,
-            rgba(17, 16, 14, 0.95) 0%,
-            rgba(17, 16, 14, 0.7) 45%,
-            rgba(17, 16, 14, 0.35) 100%
-        ),
-        linear-gradient(
-            rgba(17, 16, 14, 0.15),
-            rgba(17, 16, 14, 0.65)
-        );
-}
+    linear-gradient(
+        90deg,
+        rgba(17, 16, 14, 0.92) 0%,
+        rgba(17, 16, 14, 0.65) 45%,
+        rgba(17, 16, 14, 0.3) 100%
+    ),
+    url("ACE6F86A-56C9-41F4-9F66-B972B6C4CA0A.jpeg");
+
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+
+   
 
 .hero::before {
     content: "";
