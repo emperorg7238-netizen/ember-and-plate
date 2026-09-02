@@ -889,3 +889,28 @@ p {
     object-fit: contain;
     display: block;
 }
+/* MENU CARD IMAGE FIX */
+
+.menu-card {
+    display: block !important;
+    padding: 0 0 35px !important;
+}
+
+.menu-card .menu-image {
+    width: 100% !important;
+    height: 320px !important;
+    margin-bottom: 25px !important;
+    overflow: hidden !important;
+}
+
+.menu-card .menu-image img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    object-position: center !important;
+    display: block !important;
+}
+
+.menu-card-content {
+    padding: 0 30px !important;
+}
