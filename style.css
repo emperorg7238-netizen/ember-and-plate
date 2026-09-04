@@ -914,3 +914,12 @@ p {
 .menu-card-content {
     padding: 0 30px !important;
 }
+@media (max-width: 768px) {
+    .testimonial-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .testimonial-card {
+        padding: 30px 24px;
+    }
+}
