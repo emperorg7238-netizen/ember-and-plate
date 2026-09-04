@@ -32,6 +32,24 @@ reservationForm.addEventListener("submit", function(event) {
         return;
     }
 
+    const message = `Hello Ember & Plate!
+
+I would like to request a reservation.
+
+Name: ${name}
+Email: ${email}
+Date: ${date}
+Guests: ${guests}`;
+
+    const whatsappURL =
+        "https://wa.me/2348134375132?text=" +
+        encodeURIComponent(message);
+
+    window.location.href = whatsappURL;
+
+    reservationForm.reset();
+});
+
     const message =
         `Hello Ember & Plate!%0A%0A` +
         `I would like to request a reservation.%0A%0A` +
