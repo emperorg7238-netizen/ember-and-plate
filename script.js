@@ -17,6 +17,7 @@ document.querySelectorAll(".nav-links a").forEach(link => {
     });
 });
 
+
 const reservationForm = document.getElementById("reservationForm");
 
 reservationForm.addEventListener("submit", function(event) {
@@ -32,38 +33,21 @@ reservationForm.addEventListener("submit", function(event) {
         return;
     }
 
-    const message = `Hello Ember & Plate!
-
-I would like to request a reservation.
-
-Name: ${name}
-Email: ${email}
-Date: ${date}
-Guests: ${guests}`;
+    const message =
+        `Hello Ember & Plate!\n\n` +
+        `I would like to request a reservation.\n\n` +
+        `Name: ${name}\n` +
+        `Email: ${email}\n` +
+        `Date: ${date}\n` +
+        `Guests: ${guests}`;
 
     const whatsappURL =
         "https://wa.me/2348134375132?text=" +
         encodeURIComponent(message);
 
     window.location.href = whatsappURL;
-
-    reservationForm.reset();
 });
 
-    const message =
-        `Hello Ember & Plate!%0A%0A` +
-        `I would like to request a reservation.%0A%0A` +
-        `Name: ${name}%0A` +
-        `Email: ${email}%0A` +
-        `Date: ${date}%0A` +
-        `Guests: ${guests}`;
-
-    const whatsappURL = `https://wa.me/2348134375132?text=${message}`;
-
-    window.open(whatsappURL, "_blank");
-
-    reservationForm.reset();
-});
 
 const dateInput = document.getElementById("date");
 
