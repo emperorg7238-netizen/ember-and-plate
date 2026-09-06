@@ -392,11 +392,12 @@ p {
     font-family: Arial, sans-serif;
     font-size: 11px;
 }
-
 .menu-card-content h3 {
     font-size: 28px;
     margin-bottom: 15px;
+    color: var(--cream);
 }
+
 
 .menu-card-content p {
     max-width: 350px;
