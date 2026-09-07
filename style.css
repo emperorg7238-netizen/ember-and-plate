@@ -914,6 +914,12 @@ p {
     object-position: center !important;
     display: block !important;
 }
+.menu-card .menu-image img {
+    transition: transform 0.5s ease;
+}
+.menu-card:hover .menu-image img {
+    transform: scale(1.04);
+}
 
 .menu-card-content {
     padding: 0 30px !important;
