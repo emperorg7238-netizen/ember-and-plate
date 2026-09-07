@@ -410,6 +410,14 @@ p {
     font-size: 13px;
 }
 
+.menu-card-top span {
+    color: var(--gold-light);
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
 .menu-action {
     margin-top: 50px;
 }
